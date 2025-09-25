@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+ {% block content %}
+ {% load static %}
+<div class="p-3">
+ <div class="container">
+ <div class="row mt-3">
+ <div class="col-md-6 mx-auto mb-3">
+ <h2>About</h2>
+ <hr />
+ <p>Fruits Store is an Exclusive Online Fruit Shop  in Trivandrum!! </p>
+ <p>Our Goal is to Deliver High Quality and Rich Flavor Fruits Online.Every Fruit has its own Taste and Wonderful Nutritional Value and We Promise to Deliver the Chemical-Free, On-time rightly harvested and Handpicked Fruits from Farm to your Home.
+ 
+ </p>
+ </div>
+ <div class="col-md-6 mx-auto mb-3 text-center">
+ <img src="{% static 'img/about.jpg' %}" class="max-width-100" alt="about" />
+ </div>
+ </div>
+ </div>
+ </div>
+ {% endblock content %}
